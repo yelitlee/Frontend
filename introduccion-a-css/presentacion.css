@@ -1,0 +1,31 @@
+
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 120px;
+      font-weight: 800; /* o 900 */
+      color: black; /* Color del texto por defecto */
+    }
+
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 48px;
+      font-weight: 600; /* o 700 */
+      color: black; /* Color del texto por defecto */
+    }
+
+    .Jelitlee {
+      color: red;
+    }
+
+    .responsable {
+      color: blue;
+    }
+
+    .eficiente {
+      color: green;
+    }
+
+    .honesta {
+      color: purple;
+    }
+ 

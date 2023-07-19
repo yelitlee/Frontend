@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: black;
+  }
+
+  p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: black;
+  }
+
+  .gray-text {
+    color: gray;
+  }
+
+  .blue-link {
+    color: #00BFFF;
+    text-decoration: none;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .different-font {
+    font-family: 'Georgia', serif;
+  }

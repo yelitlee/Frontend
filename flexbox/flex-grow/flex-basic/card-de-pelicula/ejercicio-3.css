@@ -1,0 +1,101 @@
+body {
+   /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .card {
+   /* width: 300px;
+    height: 400px;
+    border: 1px solid #cc1680;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    */
+    border: 2px solid black;
+    width: 675px;
+    height: 290px;
+    display: flex;
+  }
+
+  .poster {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .info {
+    width: auto;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    border: 2px solid black;
+    margin: 2px 2px 2px 4px;
+   
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+
+  .description {
+    /*
+    flex-grow: 1;
+    text-align: justify; 
+    border: 2px solid black; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 450px;
+   
+  }
+
+  .year {
+    font-size: 14px;
+  }
+
+  .genre {
+    font-size: 14px;
+  }
+
+ /*
+  body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .contenedor {
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+  }
+
+  .contiene-info {
+    border: 2px solid black;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+  }
+
+  .imagen {
+    background-color: aquamarine;
+    width: 250px;
+    height: 250px;
+  }
+
+*/

@@ -1,0 +1,59 @@
+<!--index.html debe tener:
+un título h1 que diga: Mis paletas
+3 paletas de colores, que consisten en:
+un título h2 con el nombre de la paleta (por ejemplo: Moderna)
+una lista desordenada con 5 ítems
+cada ítem debe tener como texto código del color, en el sistema correspondiente (por ejemplo, si es blanco y está en hexadecimal #FFFFFF)
+Poner un tipografía distinta a la default.
+Dar a los títulos un tamaño de fuente distinto al default.
+Cada ítem debe de tener de color de fondo el color que representa (por ejemplo, si representa el color negro, tener de color de fondo dicho color).
+Tener en cuenta el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa.
+Los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="paletadecolores.css">
+</head>
+<body>
+    <h1>Mis paletas</h1>
+
+    <div class="palette">
+        <h2>Moderna</h2>
+        <ul>
+            <li style="background-color: #E63946">Hex: #E63946</li>
+            <li style="background-color: #F1FAEE">Hex: #F1FAEE</li>
+            <li style="background-color: #A8DADC">Hex: #A8DADC</li>
+            <li style="background-color: #457B9D">Hex: #457B9D</li>
+            <li style="background-color: #1D3557">Hex: #1D3557</li>
+        </ul>
+    </div>
+
+    <div class="palette">
+        <h2>Vibrante</h2>
+        <ul>
+            <li style="background-color: rgb(255, 0, 0)">RGB: 255, 0, 0</li>
+            <li style="background-color: rgb(0, 255, 0)">RGB: 0, 255, 0</li>
+            <li style="background-color: rgb(0, 0, 255)">RGB: 0, 0, 255</li>
+            <li style="background-color: rgb(255, 255, 0)">RGB: 255, 255, 0</li>
+            <li style="background-color: rgb(255, 0, 255)">RGB: 255, 0, 255</li>
+        </ul>
+    </div>
+
+    <div class="palette">
+        <h2>Suave</h2>
+        <ul>
+            <li style="background-color: hsl(40, 80%, 60%)">HSL: 40, 80%, 60%</li>
+            <li style="background-color: hsl(200, 50%, 70%)">HSL: 200, 50%, 70%</li>
+            <li style="background-color: hsl(120, 70%, 80%)">HSL: 120, 70%, 80%</li>
+            <li style="background-color: hsl(280, 30%, 50%)">HSL: 280, 30%, 50%</li>
+            <li style="background-color: hsl(60, 100%, 50%)">HSL: 60, 100%, 50%</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+

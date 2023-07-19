@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+.flag {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.horizontal-stripe {
+    width: 60%;
+    height: 50px;
+    
+}
+.vertical-stripe {
+    width: 60px;
+    height: 80%;
+    display: inline-flex;
+}

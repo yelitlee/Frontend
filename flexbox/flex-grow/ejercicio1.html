@@ -1,0 +1,51 @@
+<!--Para los ejercicios 1 y 2, definí el body como contenedor flexible, agregale flex-wrap: wrap y dale a cada div el mismo alto fijo y un color de fondo distinto. A menos que el ejercicio lo indique, no uses width para definir el ancho, sino flex-grow.
+Para los ejercicios 3, 4 y 5, no te preocupes por el contenido y los estilos. Podés sustituir todo por cajas. Lo importante de ellos es poder replicar las disposición de los elementos respetando las consignas.
+1) flex-grow
+Agregá 3 divs. Hacé que el primero y el último tengan 250px de ancho usando width, y que el del medio ocupe el espacio restante usando flex-grow.
+Agregá 4 divs. Hacé que el primero y el último tengan 200px de ancho usando width, y que los dos del medio ocupen cada uno la mitad del espacio restante, usando flex-grow.
+Agregá 3 divs. Hacé que cada div ocupe un tercio del ancho de la pantalla.
+Agregá 3 divs. Hacé que el primer div ocupe la mitad del ancho de la pantalla, y los 2 restantes un cuarto cada uno.
+Agregá 3 divs. Hacé que el último div ocupe 60% del ancho de la pantalla, y los 2 primeros un 20% cada uno.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="width: 250px;"></div>
+        <div class="box" style="flex-grow: 1;"></div>
+        <div class="box" style="width: 250px;"></div>
+      </div>
+
+      <div class="container">
+        <div class="box" style="width: 200px;"></div>
+        <div class="box" style="flex-grow: 1;"></div>
+        <div class="box" style="flex-grow: 1;"></div>
+        <div class="box" style="width: 200px;"></div>
+      </div>
+
+      <div class="container">
+        <div class="box" style="flex-grow: 1;"></div>
+        <div class="box" style="flex-grow: 1;"></div>
+        <div class="box" style="flex-grow: 1;"></div>
+      </div>
+
+      <div class="container">
+        <div class="box" style="flex-grow: 2;"></div>
+        <div class="box" style="flex-grow: 1;"></div>
+        <div class="box" style="flex-grow: 1;"></div>
+      </div>
+
+      <div class="container">
+        <div class="box" style="flex-grow: 1;"></div>
+        <div class="box" style="flex-grow: 1;"></div>
+        <div class="box" style="flex-grow: 3;"></div>
+      </div>
+      
+</body>
+</html>

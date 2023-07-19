@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+  }
+  
+  .box {
+    height: 100px;
+    background-color: #e43030;
+    margin: 5px;
+  }
+  

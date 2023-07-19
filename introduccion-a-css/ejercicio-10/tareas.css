@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+}
+span {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.pending {
+    background-color: blue;
+    color: white;
+}
+.in-progress {
+    background-color: orange;
+    color: white;
+}
+.completed {
+    background-color: green;
+    color: white;
+}
+.cancelled {
+    background-color: red;
+    color: white;
+}
+.light-gray {
+    color: #999999;
+}

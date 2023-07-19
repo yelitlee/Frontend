@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+input{
+    padding-left: 15px;
+    width: 100%;
+}
+
+.contenedor{
+    width: 250px;
+    position: relative;
+}
+
+.icono{
+    width: 10px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.check{
+    width: 15px;
+    position: absolute;
+    top: 4px;
+    right: 5px; 
+    display: none;
+}
+.imput-usuario:valid + .check {
+    display: flex;
+}
+
+
+.barra-contraseña{
+    height: 5px;
+    width: 50px;
+    background-color: red;
+}
+.seguro{
+    width: 100px;
+
+}
+
+button{
+    width: 150px;
+}
+

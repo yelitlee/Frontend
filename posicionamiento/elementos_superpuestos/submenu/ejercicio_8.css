@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+nav {
+    display: flex;
+    background-color: black;
+}
+.list {
+    display: flex;
+    gap: 20px;
+    color: white;
+    position: relative;
+}
+
+.submenu:hover .sublista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sublista {
+    display: none;
+    position: absolute;
+    background-color: black;
+}

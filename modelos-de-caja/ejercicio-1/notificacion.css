@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(226, 221, 221);
+}
+div {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    text-align: left;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+img {
+    width: 75px;
+}
+
+h1 {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: rgb(79, 79, 240);
+
+}
+button {
+    background-color: rgb(172 172 237);
+}
